@@ -1,0 +1,19 @@
+{
+  "name": "movie-rental-application-backend",
+  "version": "1.0.0",
+  "description": "This is the backend for a movie rental application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarju-P/Movie-Rental-Application-Backend.git"
+  },
+  "author": "Sarju Pandit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarju-P/Movie-Rental-Application-Backend/issues"
+  },
+  "homepage": "https://github.com/Sarju-P/Movie-Rental-Application-Backend#readme"
+}
