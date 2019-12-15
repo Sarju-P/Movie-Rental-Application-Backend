@@ -15,8 +15,10 @@ app.get('/genres', (req,res)=>{
     res.send(genres);
 });
 
-app.listen(4000,(req,res)=> {
-    console.log('Listening on port 4000...');
+const port = process.env.PORT || 3000;
+
+app.listen(port,(req,res)=> {
+    console.log(`Listening on port ${port}...`);
 })
 
 
