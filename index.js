@@ -8,6 +8,10 @@ const genres =
     { id: 3, name: 'Romantic' }
 ]
 app.get('/', (req,res)=>{
+    res.send('WELCOME TO THE HOMEPAGE OF MOVIE RENTAL APPLICATION...');
+});
+
+app.get('/genres', (req,res)=>{
     res.send(genres);
 });
 
